@@ -1,0 +1,19 @@
+class Person:
+    def __init__(encapsulation):
+        encapsulation.name = "Jhon cris" 
+        encapsulation.age = 21  
+        encapsulation.gender = "Male"
+        
+    def display_gender(encapsulation):
+        print("Gender:",encapsulation.gender)
+
+    def display_age(encapsulation):
+        print("Age:",encapsulation.age) 
+
+    def display_name(encapsulation):
+        print("Name:",encapsulation.name) 
+
+pub = Person()
+pub.display_name()
+pub.display_age()
+pub.display_gender()
